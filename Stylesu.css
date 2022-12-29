@@ -1,0 +1,54 @@
+ 
+ 
+ body{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .container{
+    width:60vw;
+    max-width: 450px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+  .game-stats{ 
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+   
+ }
+ .grid{
+   width:60vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.row{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+}
+.square{
+   max-width: 150px;
+   max-height:150px;
+   width: 20vw;
+   height :20vw;
+   background-color: darkgray;
+   margin:5px;
+   
+}
+.mole{
+   background-image:url("penguin.jpg") ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 50%;
+}
+.buttons--{
+  justify-content: center;
+  }
